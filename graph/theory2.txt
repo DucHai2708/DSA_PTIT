@@ -1,0 +1,35 @@
+Note:
+- Vẫn có thực hành 4 tiếng
+- Kíp cuối cùng sẽ thi thử 1 tiếng 10 phút
+B1: Sắp xếp, quay lui, chia trị, xâu np, hoán vị, tổ hợp
+B2: Thuật toán tối ưu, nhánh cận or qud
+B3: stack queue
+B4: DFS, BFS, DSU
+B5: Cây np, đồ thị trọng số
+- cây np 4 dạng
+
+
+-------------------------------------------------------------
+
+Giới hạn lại phạm vi cài cây np
+***Cây np gần đầy: 
+- Điền từ trái qua phải, có thể thiểu -> phù hợp với mảng
+- Cây luôn liên thông
+- Thay trỏ left bằng 2p+1, right 2p+2
+*duyệt cây theo thứ tự trước 
+*duyệt giữa 
+*duyệt sau
+
+***Cây np tìm kiếm: tính chất slide
+- tknp là dữ liệu tĩnh, cây nptk là dữ liệu động thêm bớt ptu
+- in ra cây duyệt giữa -> sort in ra các số k trùng nhau -> bản chất là sắp xếp
+*thêm node vào cây tìm kiếm	
+*xóa node trên cây tk
+*xoay trái, phải cây nptk
+
+***cây avl
+*chỉ số cân bằng trên cây
+- dãy lệch khi chèn
+-> Dựng cây cân bằng bằng cách sắp xếp dãy chọn ở giữa làm gốc
+rồi đệ quy ..v.v..
+

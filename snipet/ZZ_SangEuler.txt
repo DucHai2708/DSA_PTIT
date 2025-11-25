@@ -1,0 +1,14 @@
+ll phi[MAX+1];
+void sang(){
+	for(int i = 1; i <= MAX; i++){
+		phi[i] = i;
+	}
+	for(int i = 2; i <= MAX; i++){
+		if(phi[i] == i){
+			phi[i] = i-1;
+			for(int j = 2*i; j <= MAX; j+=i){
+				phi[j] -= phi[j]/i;
+			}
+		}
+	}
+}

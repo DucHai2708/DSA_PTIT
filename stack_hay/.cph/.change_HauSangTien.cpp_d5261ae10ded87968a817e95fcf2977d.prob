@@ -1,0 +1,1 @@
+{"name":"Local: change_HauSangTien","url":"d:\\Code\\stack_hay\\change_HauSangTien.cpp","tests":[{"id":1743669293177,"input":"2\nAB+CD-*\nABC/-AK/L-*","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Code\\stack_hay\\change_HauSangTien.cpp","group":"local","local":true}

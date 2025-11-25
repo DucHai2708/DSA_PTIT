@@ -1,0 +1,30 @@
+const int MAX = 1e6;
+const int Mod = 1e9+7;
+int Prime[MAX+1];
+
+void sang(){
+	for(int i = 1; i <= MAX; i++){
+		Prime[i] = i;
+	}
+	for(int i = 2; i <= sqrt(MAX); i++){
+		if(Prime[i]){
+			for(int j = i*i; j <= MAX; j+=i){
+				if(Prime[j]==j){
+					Prime[j] = i;
+				}
+			}
+		}
+	}
+}
+
+int cnt[MAX+1];
+
+void pt(ll n){
+	while(n!=1){
+		int d = Prime[n];
+		while(n % d == 0){
+			++cnt[d];
+			n /= d;
+		}
+	}
+}

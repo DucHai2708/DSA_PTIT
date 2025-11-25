@@ -1,0 +1,1 @@
+{"name":"Local: Two_Pointer_MergingArray","url":"c:\\Users\\AD\\Desktop\\Algorithm\\Two_Pointer_MergingArray.cpp","tests":[{"id":1729306931571,"input":"5 7\n1 4 6 8 9\n1 2 4 5 10 16 29","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\AD\\Desktop\\Algorithm\\Two_Pointer_MergingArray.cpp","group":"local","local":true}

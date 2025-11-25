@@ -1,0 +1,12 @@
+void sang() {
+	for (int i = 2; i <= 1000000; i++) {
+		if(prime[i] == 0) {
+			for (int j = i; j <= 1000000; j+=i) {
+				prime[j] = i;
+			}
+		}
+	}
+	for (int i = 2; i <= 1e6; i++) {
+		F[i] = F[i-1] + prime[i];
+	}
+}

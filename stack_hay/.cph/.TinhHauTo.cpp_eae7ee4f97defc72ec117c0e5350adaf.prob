@@ -1,0 +1,1 @@
+{"name":"Local: TinhHauTo","url":"d:\\Code\\stack_hay\\TinhHauTo.cpp","tests":[{"id":1743409265754,"input":"1\n2 3 1 * + 9 –","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Code\\stack_hay\\TinhHauTo.cpp","group":"local","local":true}

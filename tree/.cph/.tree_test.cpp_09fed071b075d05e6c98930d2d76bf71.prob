@@ -1,0 +1,1 @@
+{"name":"Local: tree_test","url":"d:\\CodeCPP\\tree\\tree_test.cpp","tests":[{"id":1747591345167,"input":"2\n2\n1 2 R 1 3 L\n6\n50 30 L 50 70 R 30 20 L 30 40 R 70 60 L 70 80 R","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\CodeCPP\\tree\\tree_test.cpp","group":"local","local":true}

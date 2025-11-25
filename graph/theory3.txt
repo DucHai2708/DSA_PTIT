@@ -1,0 +1,37 @@
+Note: 
+4 bài của cây tìm kiếm cơ bản
+- cây thường, cây gần đầy, cây tìm kiếm, cây cân bằng
+
+- 
+
+--------------------------------------------------------------
+
+***Cây HEAP
+- trong priority_queue
+- là cây nhị phân dc xây dựng theo cơ chế cực trị (gốc)
+- max heap : gốc lớn nhất
+- cìa bnawfg cây gần đầy (mảng)
+*quy tắc: thêm ở cuối dãy rồi xem giá trị của nó rồi đưau về dạng heap
+-- các thao tác chính:
++) kseo lên: ss với cha rồi swap 
++ keo xuong: ss với con max rồi swap
+- delete: xóa đầu rồi đặt thằng cuối lên rồi kéo xuống
+
+- ứng dụng: 
++) heap sort -> ưu điểm khi chèn 1 ptu vào rồi sắp xếp
++) 
+- bản chất của priority_queue
+
+***Hashing
+chia dư cho tổng kích thước
+
+*thăm dò: xem các ô nào trống đẩy vào->vẫn xung đột->tốt khi nhiều chỗ trống
+*nếu thừa ít: chia theo cụm
+*sd dslk để lưu->phức tạp
+**chỉ sổ tải: 
+0: full ô trống
+0.5: nửa số ô trống
+1: full table 0.9-0.95
+ 
+
+

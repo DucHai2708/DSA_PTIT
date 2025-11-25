@@ -1,0 +1,34 @@
+- Cây np : bài 5
+- ít gặp kc min chu trình âm
+
+note: floyd, dijiktra base, dijiktra heap
+hash map, hash table
+
+- Floyd giải quyết đc đườn1g đi min giữa mọi đỉnh : QHD, n < 500, ma trận trọng số
+==> O(n^3) -> dùng khi có nhiều truy vấn tìm kc min giữa 2 đỉnh bất kì
+==> Bt luyện tập có bài này
+
+
+- Dijiktra heap : Tham lam, ds kề, 1000 đỉnh
++) min : priority queue nlog(n)
+
+
+
+- Di chuyển trên bảng số
++) dijiktra heap
+
+-----------------------------------------------
+
+Các thuật toán trên cây nhị phân
+
+- Năm ngoái: Cây gần đầy
+- chênh 1 mức luôn đảm bảo đi là log n
+- node nào lệch thì xoay
+- bài toán thực tế : Cây cân bằng
+- Cây np tìm kiếm: Tìm kiếm khi thông tin luôn thay đổi
+
+
+- BT duyệt cây theo mức: geekforgeek
+
++) BFS 
+- 

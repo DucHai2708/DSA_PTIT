@@ -1,0 +1,1 @@
+{"name":"Local: Elon","url":"d:\\Code\\Elon.cpp","tests":[{"id":1742460404976,"input":"3\n120\n1234\n2563","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Code\\Elon.cpp","group":"local","local":true}

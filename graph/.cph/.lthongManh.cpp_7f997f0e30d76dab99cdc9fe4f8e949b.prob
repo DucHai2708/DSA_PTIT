@@ -1,0 +1,1 @@
+{"name":"Local: lthongManh","url":"d:\\CodeCPP\\graph\\lthongManh.cpp","tests":[{"id":1745743482249,"input":"1\n6 9\n1 2 2 4 3 1 3 2 3 5 4 3 5 4 5 6 6 3","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\CodeCPP\\graph\\lthongManh.cpp","group":"local","local":true}

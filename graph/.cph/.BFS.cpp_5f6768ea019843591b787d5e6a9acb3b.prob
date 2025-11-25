@@ -1,0 +1,1 @@
+{"name":"Local: BFS","url":"d:\\CodeCPP\\graph\\BFS.cpp","tests":[{"id":1745839680694,"input":"1\n4 4\n\n1 2\n\n1 3\n\n1 4\n\n3 4","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\CodeCPP\\graph\\BFS.cpp","group":"local","local":true}

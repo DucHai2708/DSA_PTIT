@@ -1,0 +1,30 @@
+const int MAX = 1e7;
+const int Mod = 1e9+7;
+vector<bool> isPrime(MAX+1,true); // Mang sang
+vector<int> Prime; // Luu cac snt
+
+void sang(){
+	isPrime[0] = isPrime[1] = false;
+	for(int i = 2; i <= MAX; i++){
+		if(isPrime[i]){
+			Prime.push_back(i);
+			for(int j = 2*i; j <= MAX; j+=i){
+				isPrime[j] = false;
+			}
+		}
+	}
+}
+
+void phantich(ll n){
+	for(int i = 0; 1ll*Prime[i]*Prime[i] <= n; i++){
+		int power = 0;
+		if(n % Prime[i] == 0){
+			while(n % Prime[i] == 0){
+				++power;
+				n /= Prime[i];
+			}
+			cout << Prime[i] << " " << power << endl;
+		}
+	}
+	if(n>1) cout << n << " " << 1 << endl;
+}

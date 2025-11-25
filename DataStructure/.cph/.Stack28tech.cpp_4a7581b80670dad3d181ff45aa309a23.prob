@@ -1,0 +1,1 @@
+{"name":"Local: Stack28tech","url":"d:\\Code\\DataStructure\\Stack28tech.cpp","tests":[{"id":1742811788589,"input":"2\n[()]{}{[()()]()}\n[(])","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Code\\DataStructure\\Stack28tech.cpp","group":"local","local":true}

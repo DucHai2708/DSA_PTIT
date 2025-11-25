@@ -1,0 +1,7 @@
+ll power(ll a, ll b){
+	if(b == 1) return a % Mod;
+	ll x = power(a,b/2);
+	x = (x * x) % Mod;
+	if(b % 2) return (x * a) % Mod;
+	return x;
+}
